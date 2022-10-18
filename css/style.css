@@ -28,9 +28,32 @@ body{
   z-index: -1;
 }
 .banner{
-	background: url(../images/gif.gif);
+	background: url(../images/My\ Video12.gif);
     background-size: cover;
 }
+.error-page {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+  }
+  
+  .error-page .center {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .error-page .center .block h1 {
+	font-size: 200px;
+	font-weight: 400;
+	line-height: 266px;
+	font-family: "Lora", serif;
+  }
+  
+  .error-page .center .block p {
+	margin-bottom: 50px;
+  }
 .agileinfo-dot{
     background: url(../images/dott.png)repeat 0px 0px;
     background-size: 2px;
@@ -378,9 +401,10 @@ body{
     margin: 4em 0 0 0;
 }
 .w3about-img {
-    background: url(../images/2.jpg)no-repeat 0px 0px;
-    background-size: cover;
-    min-height: 30em;
+    background: url(../images/logoviw.png)no-repeat 0px 0px;
+    background-size: auto;
+    min-height: 42em;
+	min-width: 30rem;
     padding: 0;
 	position:relative;
 }
